@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <title>Huskespil</title>
-    <meta charset="YTF-8">
+    <meta charset="UTF-8">
 </head>
 <style>
  ul {
@@ -24,6 +24,28 @@
             text-decoration: none;
         }
         p {font-size:120%}     
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: max-content;
+  margin: auto;
+  width: max-content;
+  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  text-align: center;
+  
+}
+img {width: 80px; height: 80px;}
+
+img:hover { border-style: solid;
+    border-width: 2px;
+    border-color: white;}
+    
 </style>
 <body style="background-color:burlywood">
         <nav>
@@ -35,9 +57,29 @@
                 </ul>
             </nav>
     <h1 style="text-align:center">Huskespil</h1>
-    <br>
+
     <p style="text-align:center">Find par for at vinde spillet</p>
 
+    <div class="grid-container">
+        <div class="grid-item"><img src="billeder/firefox.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/chrome.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/explorer.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/explorer.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/safari.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/discord.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/firefox.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/github.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/intellij.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/safari.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/chrome.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/windows.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/discord.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/windows.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/intellij.png" alt="firefox"></div>
+        <div class="grid-item"><img src="billeder/github.png" alt="firefox"></div>
+
+    </div>
+    
 
 </body>
 </html>
