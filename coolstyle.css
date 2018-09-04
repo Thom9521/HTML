@@ -36,13 +36,17 @@ p {
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 30px;
+
     text-align: center;
+    opacity: 1;
+
     
   }
-  
-  .grid-item:hover {
-      border-style: solid;
-  border: 1px;
-  border-color:pink;
+
+  img {
+      width: 120px; height: 120px; opacity: 0.0;
+    }
+
+  img:hover{
+      opacity: 1;
   }
