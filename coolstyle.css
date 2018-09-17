@@ -36,17 +36,24 @@ p {
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-
-    text-align: center;
+    width: 120px;
+    height: 120px;
     opacity: 1;
+    text-align: center;
+  }
 
+    .grid-item:hover{border: 1px solid white}
+
+
+  img {
+      width: 120px; height: 120px; opacity: 1;
+    }
+
+  #bagside{
+        background-image: "billeder/squareRed.jpg";
+        width: 120px; height: 120px;
     
   }
 
-  img {
-      width: 120px; height: 120px; opacity: 0.0;
-    }
-
-  img:hover{
-      opacity: 1;
-  }
+  
+  
