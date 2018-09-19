@@ -31,19 +31,17 @@ p {
     height: max-content;
     margin: auto;
     width: max-content;
+    cursor: pointer;
     
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
     width: 120px;
     height: 120px;
     opacity: 1;
     text-align: center;
   }
-
-    .grid-item:hover{border: 1px solid white}
-
 
   img {
       width: 120px; height: 120px; opacity: 1;
