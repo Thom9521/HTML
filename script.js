@@ -15,73 +15,90 @@ var openS2 = false;
 var openW1 = false;
 var openW2 = false;
 var openCard = false;
+var doneF1 = false;
+var doneF2 = false;
+var doneC1 = false;
+var doneC2 = false;
+var doneD1 = false;
+var doneD2 = false;
+var doneE1 = false;
+var doneE2 = false;
+var doneG1 = false;
+var doneG2 = false;
+var doneI1 = false;
+var doneI2 = false;
+var doneS1 = false;
+var doneS2 = false;
+var doneW1 = false;
+var doneW2 = false;
+var openCard = false;
 var delayInMilliseconds = 1000;
 
 function goRed(){
     openCard = false;
     setTimeout(function(){
         
-    if(openF1 = true){
+    if(openF1 = true && doneF1 == false){
         document.getElementById("firefox1").src = "billeder/squareRed.jpg";
         openF1 = false;
     }
-    if(openF2 = true){
+    if(openF2 = true && doneF2 == false){
         document.getElementById("firefox2").src = "billeder/squareRed.jpg";
         openF2 = false;
     }
-    if(openC1 = true){
+    if(openC1 = true && doneC1 == false){
         document.getElementById("chrome1").src = "billeder/squareRed.jpg"
         openC1 = false;
     }
-    if(openC2 = true){
+    if(openC2 = true && doneC2 == false){
         document.getElementById("chrome2").src = "billeder/squareRed.jpg"
         openC2 = false;
     }
-    if(openD1 = true){
+    if(openD1 = true && doneD1 == false){
         document.getElementById("discord1").src = "billeder/squareRed.jpg"
         openD1 = false;
     }
-    if(openD2 = true){
+    if(openD2 = true && doneD2 == false){
         document.getElementById("discord2").src = "billeder/squareRed.jpg"
         openD2 = false;
     }
-    if(openE1 = true){
+    if(openE1 = true && doneE1 == false){
         document.getElementById("explorer1").src = "billeder/squareRed.jpg"
         openE1 = false;
     }
-    if(openE2 = true){
+    if(openE2 = true && doneE2 == false){
         document.getElementById("explorer2").src = "billeder/squareRed.jpg"
         openE2 = false;
     }
-    if(openG1 = true){
+    if(openG1 = true && doneG1 == false){
         document.getElementById("github1").src = "billeder/squareRed.jpg"
         openG1 = false;
     }
-    if(openG2 = true){
+    if(openG2 = true && doneG2 == false){
         document.getElementById("github2").src = "billeder/squareRed.jpg"
         openG2 = false;
     }
-    if(openI1 = true){
+    if(openI1 = true && doneI1 == false){
         document.getElementById("intellij1").src = "billeder/squareRed.jpg"
         openI1 = false;
     }
-    if(openI2 = true){
+    if(openI2 = true && doneI2 == false){
         document.getElementById("intellij2").src = "billeder/squareRed.jpg"
         openI2 = false;
     }
-    if(openS1 = true){
+    if(openS1 = true && doneS1 == false){
         document.getElementById("safari1").src = "billeder/squareRed.jpg"
         openS1 = false;
     }
-    if(openS2 = true){
+    if(openS2 = true && doneS2 == false){
         document.getElementById("safari2").src = "billeder/squareRed.jpg"
         openS2 = false;
     }
-    if(openW1 = true){
+    if(openW1 = true && doneW1 == false){
         document.getElementById("windows1").src = "billeder/squareRed.jpg"
         openW1 = false;
     }
-    if(openW2 = true){
+    if(openW2 = true && doneW2 == false){
         document.getElementById("windows2").src = "billeder/squareRed.jpg"
         openW2 = false;
     }
@@ -100,7 +117,10 @@ function checkF1(){
         document.getElementById("firefox1").style.backgroundColor = "#40FF00";
         openCard = false;
         openF1 = false;
-        openF2 = false;   
+        openF2 = false;
+        doneF1 = true;
+        doneF2 = true;
+
     }
     else if(document.getElementById("firefox1").src = "billeder/squareRed.jpg" && openF2 == false && openCard == true){
         document.getElementById("firefox1").src = "billeder/firefox.png";
@@ -123,6 +143,8 @@ function checkF2(){
         openCard = false;  
         openF1 = false;
         openF2 = false;    
+        doneF1 = true;
+        doneF2 = true;
     }
     else if(document.getElementById("firefox2").src = "billeder/squareRed.jpg" && openF1 == false && openCard == true){
         document.getElementById("firefox2").src = "billeder/firefox.png";
@@ -145,7 +167,9 @@ function checkC1(){
         document.getElementById("chrome1").style.backgroundColor = "#40FF00";
         openCard = false;   
         openC1 = false;
-        openC2 = false;   
+        openC2 = false; 
+        doneC1 = true;
+        doneC2 = true;  
     }
     else if(document.getElementById("chrome1").src = "billeder/squareRed.jpg" && openC2 == false && openCard == true){
         document.getElementById("chrome1").src = "billeder/chrome.png";
@@ -166,7 +190,9 @@ function checkC2(){
         document.getElementById("chrome2").style.backgroundColor = "#40FF00";
         openCard = false;  
         openC1 = false;
-        openC2 = false;    
+        openC2 = false;  
+        doneC1 = true;
+        doneC2 = true;   
     }
     else if(document.getElementById("chrome2").src = "billeder/squareRed.jpg" && openC1 == false && openCard == true){
         document.getElementById("chrome2").src = "billeder/chrome.png";
@@ -187,7 +213,9 @@ function checkD1(){
         document.getElementById("discord1").style.backgroundColor = "#40FF00";
         openCard = false;   
         openD1 = false;
-        openD2 = false;   
+        openD2 = false; 
+        doneD1 = true;
+        doneD2 = true;   
     }
     else if(document.getElementById("discord1").src = "billeder/squareRed.jpg" && openD2 == false && openCard == true){
         document.getElementById("discord1").src = "billeder/discord.png";
@@ -209,6 +237,8 @@ function checkD2(){
         openCard = false;  
         openD1 = false;
         openD2 = false;    
+        doneD1 = true;
+        doneD2 = true; 
     }
     else if(document.getElementById("discord2").src = "billeder/squareRed.jpg" && openD1 == false && openCard == true){
         document.getElementById("discord2").src = "billeder/discord.png";
@@ -229,7 +259,9 @@ function checkE1(){
         document.getElementById("explorer1").style.backgroundColor = "#40FF00";
         openCard = false;   
         openE1 = false;
-        openE2 = false;   
+        openE2 = false; 
+        doneE1 = true;
+        doneE2 = true;   
     }
     else if(document.getElementById("explorer1").src = "billeder/squareRed.jpg" && openE2 == false && openCard == true){
         document.getElementById("explorer1").src = "billeder/explorer.png";
@@ -251,6 +283,8 @@ function checkE2(){
         openCard = false;   
         openE1 = false;
         openE2 = false;  
+        doneE1 = true;
+        doneE2 = true;   
     }
     else if(document.getElementById("explorer2").src = "billeder/squareRed.jpg" && openE1 == false && openCard == true){
         document.getElementById("explorer2").src = "billeder/explorer.png";
@@ -271,7 +305,9 @@ function checkG1(){
         document.getElementById("github1").style.backgroundColor = "#40FF00";
         openCard = false;
         openG1 = false;
-        openG2 = false;     
+        openG2 = false;  
+        doneG1 = true;
+        doneG2 = true;      
     }
     else if(document.getElementById("github1").src = "billeder/squareRed.jpg" && openG2 == false && openCard == true){
         document.getElementById("github1").src = "billeder/github.png";
@@ -292,6 +328,8 @@ function checkG2(){
         openCard = false;   
         openG1 = false;
         openG2 = false;     
+        doneG1 = true;
+        doneG2 = true;      
     }
     else if(document.getElementById("github2").src = "billeder/squareRed.jpg" && openG1 == false && openCard == true){
         document.getElementById("github2").src = "billeder/github.png";
@@ -311,7 +349,9 @@ function checkI1(){
         document.getElementById("intellij1").style.backgroundColor = "#40FF00";
         openCard = false;   
         openI1 = false;
-        openI2 = false;     
+        openI2 = false;
+        doneI1 = true;
+        doneI2 = true;           
     }
     else if(document.getElementById("intellij1").src = "billeder/squareRed.jpg" && openI2 == false && openCard == true){
         document.getElementById("intellij1").src = "billeder/intellij.png";
@@ -332,6 +372,8 @@ function checkI2(){
         openCard = false;   
         openI1 = false;
         openI2 = false;  
+        doneI1 = true;
+        doneI2 = true;
     }
     else if(document.getElementById("intellij2").src = "billeder/squareRed.jpg" && openI1 == false && openCard == true){
         document.getElementById("intellij2").src = "billeder/intellij.png";
@@ -351,7 +393,9 @@ function checkS1(){
         document.getElementById("safari1").style.backgroundColor = "#40FF00";
         openCard = false;   
         openS1 = false;
-        openS2 = false;  
+        openS2 = false; 
+        doneS1 = true;
+        doneS2 = true; 
     }
     else if(document.getElementById("safari1").src = "billeder/squareRed.jpg" && openS2 == false && openCard == true){
         document.getElementById("safari1").src = "billeder/safari.png";
@@ -372,9 +416,11 @@ function checkS2(){
         openCard = false;   
         openS1 = false;
         openS2 = false;  
+        doneS1 = true;
+        doneS2 = true; 
     }
     else if(document.getElementById("safari2").src = "billeder/squareRed.jpg" && openS1 == false && openCard == true){
-        document.getElementById("safari1").src = "billeder/safari.png";
+        document.getElementById("safari2").src = "billeder/safari.png";
         goRed();
     
     }
@@ -392,6 +438,8 @@ function checkW1(){
         openCard = false;   
         openW1 = false;
         openW2 = false;  
+        doneW1 = true;
+        doneW2 = true; 
     }
     else if(document.getElementById("windows1").src = "billeder/squareRed.jpg" && openW2 == false && openCard == true){
         document.getElementById("windows1").src = "billeder/windows.png";
@@ -411,7 +459,9 @@ function checkW2(){
         document.getElementById("windows2").style.backgroundColor = "#40FF00";
         openCard = false;  
         openW1 = false;
-        openW2 = false;   
+        openW2 = false;  
+        doneW1 = true;
+        doneW2 = true;  
     }
     else if(document.getElementById("windows2").src = "billeder/squareRed.jpg" && openW1 == false && openCard == true){
         document.getElementById("windows2").src = "billeder/windows.png";
