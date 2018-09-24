@@ -32,7 +32,7 @@ var doneS2 = false;
 var doneW1 = false;
 var doneW2 = false;
 var openCard = false;
-var delayInMilliseconds = 1000;
+var delayInMilliseconds = 800; //0.8 sekunder
 
 function goRed(){
     openCard = false;
