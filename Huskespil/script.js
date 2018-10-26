@@ -33,6 +33,7 @@ var doneW1 = false;
 var doneW2 = false;
 var openCard = false;
 var delayInMilliseconds = 800; //0.8 sekunder
+var delayInMilliseconds2 = 50;
 
 function goRed(){
     openCard = false;
@@ -120,6 +121,7 @@ function checkF1(){
         openF2 = false;
         doneF1 = true;
         doneF2 = true;
+        winAlert();
 
     }
     else if(document.getElementById("firefox1").src = "billeder/squareRed.jpg" && openF2 == false && openCard == true){
@@ -145,6 +147,7 @@ function checkF2(){
         openF2 = false;    
         doneF1 = true;
         doneF2 = true;
+        winAlert();
     }
     else if(document.getElementById("firefox2").src = "billeder/squareRed.jpg" && openF1 == false && openCard == true){
         document.getElementById("firefox2").src = "billeder/firefox.png";
@@ -170,6 +173,7 @@ function checkC1(){
         openC2 = false; 
         doneC1 = true;
         doneC2 = true;  
+        winAlert();
     }
     else if(document.getElementById("chrome1").src = "billeder/squareRed.jpg" && openC2 == false && openCard == true){
         document.getElementById("chrome1").src = "billeder/chrome.png";
@@ -192,7 +196,8 @@ function checkC2(){
         openC1 = false;
         openC2 = false;  
         doneC1 = true;
-        doneC2 = true;   
+        doneC2 = true;  
+        winAlert(); 
     }
     else if(document.getElementById("chrome2").src = "billeder/squareRed.jpg" && openC1 == false && openCard == true){
         document.getElementById("chrome2").src = "billeder/chrome.png";
@@ -215,7 +220,8 @@ function checkD1(){
         openD1 = false;
         openD2 = false; 
         doneD1 = true;
-        doneD2 = true;   
+        doneD2 = true;
+        winAlert();   
     }
     else if(document.getElementById("discord1").src = "billeder/squareRed.jpg" && openD2 == false && openCard == true){
         document.getElementById("discord1").src = "billeder/discord.png";
@@ -239,6 +245,7 @@ function checkD2(){
         openD2 = false;    
         doneD1 = true;
         doneD2 = true; 
+        winAlert();
     }
     else if(document.getElementById("discord2").src = "billeder/squareRed.jpg" && openD1 == false && openCard == true){
         document.getElementById("discord2").src = "billeder/discord.png";
@@ -261,7 +268,8 @@ function checkE1(){
         openE1 = false;
         openE2 = false; 
         doneE1 = true;
-        doneE2 = true;   
+        doneE2 = true;
+        winAlert();   
     }
     else if(document.getElementById("explorer1").src = "billeder/squareRed.jpg" && openE2 == false && openCard == true){
         document.getElementById("explorer1").src = "billeder/explorer.png";
@@ -284,7 +292,8 @@ function checkE2(){
         openE1 = false;
         openE2 = false;  
         doneE1 = true;
-        doneE2 = true;   
+        doneE2 = true; 
+        winAlert();  
     }
     else if(document.getElementById("explorer2").src = "billeder/squareRed.jpg" && openE1 == false && openCard == true){
         document.getElementById("explorer2").src = "billeder/explorer.png";
@@ -307,7 +316,8 @@ function checkG1(){
         openG1 = false;
         openG2 = false;  
         doneG1 = true;
-        doneG2 = true;      
+        doneG2 = true;   
+        winAlert();   
     }
     else if(document.getElementById("github1").src = "billeder/squareRed.jpg" && openG2 == false && openCard == true){
         document.getElementById("github1").src = "billeder/github.png";
@@ -329,7 +339,8 @@ function checkG2(){
         openG1 = false;
         openG2 = false;     
         doneG1 = true;
-        doneG2 = true;      
+        doneG2 = true; 
+        winAlert();     
     }
     else if(document.getElementById("github2").src = "billeder/squareRed.jpg" && openG1 == false && openCard == true){
         document.getElementById("github2").src = "billeder/github.png";
@@ -351,7 +362,8 @@ function checkI1(){
         openI1 = false;
         openI2 = false;
         doneI1 = true;
-        doneI2 = true;           
+        doneI2 = true;   
+        winAlert();        
     }
     else if(document.getElementById("intellij1").src = "billeder/squareRed.jpg" && openI2 == false && openCard == true){
         document.getElementById("intellij1").src = "billeder/intellij.png";
@@ -374,6 +386,7 @@ function checkI2(){
         openI2 = false;  
         doneI1 = true;
         doneI2 = true;
+        winAlert();
     }
     else if(document.getElementById("intellij2").src = "billeder/squareRed.jpg" && openI1 == false && openCard == true){
         document.getElementById("intellij2").src = "billeder/intellij.png";
@@ -396,6 +409,7 @@ function checkS1(){
         openS2 = false; 
         doneS1 = true;
         doneS2 = true; 
+        winAlert();
     }
     else if(document.getElementById("safari1").src = "billeder/squareRed.jpg" && openS2 == false && openCard == true){
         document.getElementById("safari1").src = "billeder/safari.png";
@@ -418,6 +432,7 @@ function checkS2(){
         openS2 = false;  
         doneS1 = true;
         doneS2 = true; 
+        winAlert();
     }
     else if(document.getElementById("safari2").src = "billeder/squareRed.jpg" && openS1 == false && openCard == true){
         document.getElementById("safari2").src = "billeder/safari.png";
@@ -440,6 +455,7 @@ function checkW1(){
         openW2 = false;  
         doneW1 = true;
         doneW2 = true; 
+        winAlert();
     }
     else if(document.getElementById("windows1").src = "billeder/squareRed.jpg" && openW2 == false && openCard == true){
         document.getElementById("windows1").src = "billeder/windows.png";
@@ -461,11 +477,19 @@ function checkW2(){
         openW1 = false;
         openW2 = false;  
         doneW1 = true;
-        doneW2 = true;  
+        doneW2 = true; 
+        winAlert();
     }
     else if(document.getElementById("windows2").src = "billeder/squareRed.jpg" && openW1 == false && openCard == true){
         document.getElementById("windows2").src = "billeder/windows.png";
         goRed();
     
     }
+    
 }
+
+function winAlert(){
+    if(doneC1 == true && doneD1 == true && doneE1 == true && doneF1 == true && doneG1 == true && doneI1 == true && doneS1 == true && doneW1 == true)
+    setTimeout(function(){
+        alert("Tillykke du har vundet spillet! :D")
+}, delayInMilliseconds); }
