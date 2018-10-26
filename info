@@ -23,22 +23,3 @@ Itthomas.dk
 TechThomas.dk
 IoThomas.dk
 
-
-div class="grid-container">
-        <div id="firefox1" class="grid-item"><img src="billeder/firefox.png" alt="firefox"></div>
-        <div id="chrome1" class="grid-item"><img src="billeder/chrome.png" alt="firefox"></div>
-        <div id="explorer1" class="grid-item"><img src="billeder/explorer.png" alt="firefox"></div>
-        <div id="explorer2" class="grid-item"><img src="billeder/explorer.png" alt="firefox"></div>
-        <div id="safari1" class="grid-item"><img src="billeder/safari.png" alt="firefox"></div>
-        <div id="discord1" class="grid-item"><img src="billeder/discord.png" alt="firefox"></div>
-        <div id="firefox2" class="grid-item"><img src="billeder/firefox.png" alt="firefox"></div>
-        <div id="github1" class="grid-item"><img src="billeder/github.png" alt="firefox"></div>
-        <div id="intellij1" class="grid-item"><img src="billeder/intellij.png" alt="firefox"></div>
-        <div id="safari2" class="grid-item"><img src="billeder/safari.png" alt="firefox"></div>
-        <div id="chrome2" class="grid-item"><img src="billeder/chrome.png" alt="firefox"></div>
-        <div id="windows1" class="grid-item"><img src="billeder/windows.png" alt="firefox"></div>
-        <div id="discord2" class="grid-item"><img src="billeder/discord.png" alt="firefox"></div>
-        <div id="windows2" class="grid-item"><img src="billeder/windows.png" alt="firefox"></div>
-        <div id="intellij2" class="grid-item"><img src="billeder/intellij.png" alt="firefox"></div>
-        <div id="github2" class="grid-item"><img src="billeder/github.png" alt="firefox"></div>
-    </div>
