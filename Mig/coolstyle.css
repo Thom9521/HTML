@@ -1,0 +1,57 @@
+body{
+    background-color:burlywood;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:burlywood;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+p {
+    font-size:120%
+}   
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: max-content;
+    margin: auto;
+    width: max-content;
+    cursor: pointer;
+    
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  img {
+      width: 120px; height: 120px; opacity: 1;
+    }
+
+  #bagside{
+        background-image: "billeder/squareRed.jpg";
+        width: 120px; height: 120px;
+    
+  }
+
+  
+  
