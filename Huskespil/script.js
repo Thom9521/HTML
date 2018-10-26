@@ -492,4 +492,4 @@ function winAlert(){
     if(doneC1 == true && doneD1 == true && doneE1 == true && doneF1 == true && doneG1 == true && doneI1 == true && doneS1 == true && doneW1 == true)
     setTimeout(function(){
         alert("Tillykke du har vundet spillet! :D")
-}, delayInMilliseconds); }
+}, delayInMilliseconds2); }
