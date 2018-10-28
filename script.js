@@ -9,5 +9,5 @@ function secretGhost() {
         }
 
 function foundGhost(){
-    alert("Du en ægte spøgelsesjæger!")
+    alert("Du er en ægte spøgelsesjæger!")
 }
