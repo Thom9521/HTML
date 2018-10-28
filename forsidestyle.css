@@ -13,3 +13,12 @@ li{
 a{
     color:orange
 }
+
+div{
+    color: orangered
+}
+#ghost{
+    float:right; 
+    display: none;
+    padding-right: 150px
+}
