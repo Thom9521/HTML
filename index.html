@@ -4,19 +4,20 @@
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="forsidestyle.css">
     <script src="script.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <img src="Billeder/githubOrange.png" alt="github" style="width:2%; float: right; cursor: pointer" onclick="github()">
-    <h1 style="color:orangered; text-align: center;">Velkommen til Techthomas.dk</h1>
+    <h1>Velkommen til Techthomas.dk</h1>
     <br>
-    <h1 style="color:orangered; text-align: center;">HAPPY HALLO<span onclick="secretGhost()" style="cursor:pointer">W</span>EEN</h1>
+    <h1>HAPPY HALLO<span style="cursor:pointer" id="W" onclick="secretGhost()">W</span>EEN</h1>
+    <h3>Der er et spøgelse gemt på siden! <br> Se om du kan findet det! </h3>
    
-    
 <br><br><br><br>
 
 <img src="Billeder/pumpkin.gif" alt="pumpkins" style="float:right; transform: scaleX(-1)">
-<img src="Billeder/ghost3.png" alt="ghost" id ="ghost">
+<img src="Billeder/ghost3.png" alt="ghost" id="ghost" onclick="foundGhost()">
 <h2 style="color:orangered">Projekter:</h2>
 <nav>
     <ul>
