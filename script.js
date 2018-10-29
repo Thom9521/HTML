@@ -1,7 +1,8 @@
 
 
 function github(){
-    location.replace("https://github.com/Thom9521/Hjemmeside");
+   var win = window.open("https://github.com/Thom9521/Hjemmeside", "_blank");
+   win.focus;
 }
 //Virker ikke helt optimalt eftersom lyden ikke burde spilles når man kan se spøgelset.
 function secretGhost() {
@@ -16,16 +17,16 @@ function secretGhost() {
 
 function foundGhost(){
     alert("Du er en ægte spøgelsesjæger!");
-    playHappyMusic();
-    document.getElementById("HalloweenAudio").pause();
-
+    playHappyMusic();   
    
 }
 function playHappyMusic(){
     var audio = document.getElementById("SLLAudio");
+    var audioSpooky = document.getElementById("HalloweenAudio");
+     audioSpooky.pause();
     audio.play();
+   
+
 
 }
-window.onload = function() {
-    document.getElementById("HalloweenAudio").play();
-}
+
