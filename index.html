@@ -5,17 +5,24 @@
     <link rel="stylesheet" type="text/css" href="forsidestyle.css">
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <embed id="HalloweenAudio" src="Billeder/Halloween.mp3" loop="false" hidden="true" autostart="true">   
     <audio id="ghostAudio">
         <source src="Billeder/haunting.mp3" type="audio/mpeg">
     </audio>
     <audio id="SLLAudio">
         <source src="Billeder/SSL.mp3" type="audio/mpeg">
         </audio>
+        <audio id="HalloweenAudio">
+            <source src="Billeder/Halloween.mp3" type="audio/mpeg"> 
+        </audio>
 </head>
 
 <body>
     <img src="Billeder/githubOrange.png" alt="github" style="width:2%; float: right; cursor: pointer" onclick="github()">
+    <div id= "musikDiv" style="white-space: nowrap">
+        <p>Lidt stemningsmusik måske? 🎃</p> 
+        <button id = "musikJa" onclick="playHalloweenMusic()">Ja tak!</button> 
+        <button id = "musikNej" onclick="pauseHalloweenMusic()">Nej ikke alligevel..</button>
+    </div>
     <h1>Velkommen til Techthomas.dk</h1>
     <br>
     <h1>HAPPY HALLO<span style="cursor:pointer" id="W" onclick="secretGhost()">W</span>EEN</h1>

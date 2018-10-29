@@ -27,4 +27,10 @@ div{
     display: none;
     padding-right: 13%
 }
+#musikJa, #musikNej{
+background-color: orangered;
+border-color: orangered;
+font-family: Cambria;
+
+}
 

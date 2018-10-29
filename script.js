@@ -21,12 +21,19 @@ function foundGhost(){
    
 }
 function playHappyMusic(){
-    var audio = document.getElementById("SLLAudio");
+    var audioHappy = document.getElementById("SLLAudio");
     var audioSpooky = document.getElementById("HalloweenAudio");
-     audioSpooky.pause();
-    audio.play();
-   
+    audioSpooky.pause();
+    audioHappy.play();
+}
 
+function playHalloweenMusic(){
+    var audioSpooky = document.getElementById("HalloweenAudio");
+    audioSpooky.play();
+}
 
+function pauseHalloweenMusic(){
+    var audioSpooky = document.getElementById("HalloweenAudio");
+    audioSpooky.pause();
 }
 
