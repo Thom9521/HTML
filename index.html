@@ -1,44 +1,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
-    <link rel="stylesheet" type="text/css" href="forsidestyle.css">
-    <script src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <audio id="ghostAudio">
-        <source src="Billeder/haunting.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="SLLAudio">
-        <source src="Billeder/SSL.mp3" type="audio/mpeg">
-        </audio>
-        <audio id="HalloweenAudio">
-            <source src="Billeder/Halloween.mp3" type="audio/mpeg"> 
-        </audio>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-    <img src="Billeder/githubOrange.png" alt="github" style="width:2%; float: right; cursor: pointer" onclick="github()">
-    <div id= "musikDiv">
-        <p>Lidt stemningsmusik måske? 🎃</p> 
-        <button id = "musikJa" onclick="playHalloweenMusic()">Ja tak!</button> 
-        <button id = "musikNej" onclick="pauseHalloweenMusic()">Nej ikke alligevel..</button>
-    </div>
-    <h1>Velkommen til Techthomas.dk</h1>
-    <br>
-    <h1>HAPPY HALLO<span style="cursor:pointer" id="W" onclick="secretGhost()">W</span>EEN</h1>
-    <h3>Der er et spøgelse gemt på siden! <br> Se om du kan finde det! </h3>
-   
-<br><br><br><br>
 
-<img src="Billeder/pumpkin.gif" alt="pumpkins" style="float:right; transform: scaleX(-1)">
-<img src="Billeder/ghost3.png" alt="ghost" id="ghost" onclick="foundGhost()">
-<h2 style="color:orangered">Projekter:</h2>
-<nav>
-    <ul>
-        <li><a href="Mig/side1.html">Hvem er jeg?</a></li>
-        <li><a href="Huskespil/huskespil.html">Huskespil</a></li>
-    </ul>
+    <h1>Velkommen til Techthomas.dk</h1>    
+    <h2>Her får du en liste over mine projekter:</h2>
+
+<div class="container"  >
+
+        <div id="mig" class="section"  >
+          <div class="content" >
+            <a class= "startBtns" href= "/Mig/side1.html" >Hvem er jeg?</a>
+          </div>
+          <div class="overlay" ></div>
+        </div>
+
+        <div id="huskespil" class="section">
+          <div class="content">
+            <a class= "startBtns" href= "/Huskespil/huskespil.html" >Huskespil</a>
+          </div>
+          <div class="overlay"></div>
+        </div>
+
+        <div id="halloween" class="section">
+          <div class="content">
+            <a class= "startBtns" href= "/Halloween/index.html" >Halloween Humør</a>
+          </div>
+          <div class="overlay"></div>
+        </div>
+
+</div>
 </nav>
-    
 </body>
 </html>
