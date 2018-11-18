@@ -72,6 +72,26 @@ left: 75%;
     font-family: cursive;
 }
 
+#reindeer{
+    width: 15%;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+#musikJa, #musikNej{
+    background-color: rgb(26, 131, 26);
+    border-color: rgb(26, 131, 26);
+    font-family: cursive;
+    color: white;
+    }
+#musikText{
+    font-family: cursive;
+    color: white;
+
+}
+    
+
 .snow-canvas {
 	display: block;
 	width: 100%;

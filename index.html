@@ -8,6 +8,15 @@
     <script src="http://cdn.bootcss.com/jquery/1.8.1/jquery.min.js"></script>
     <script src="snow-plugin.js"></script>
     <script src="jquery-3.3.1.min.js"></script>
+    <audio id="giftAudio">
+            <source src="Billeder/openGift.wav" type="audio/mpeg">
+    </audio>
+    <audio id="surpriseAudio">
+            <source src="Billeder/surprise.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="christmasAudio">
+            <source src="Billeder/Christmas.mp3" type="audio/mpeg">
+    </audio>
 
 
 
@@ -17,12 +26,19 @@
     <canvas class="snow-canvas" speed="1" interaction="false" size="2" count="80" opacity="0.00001" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" wind-power="0" image="false" width="1366" height="667"></canvas>
     <canvas class="snow-canvas" speed="3" interaction="true" size="6" count="30" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" opacity="0.00001" wind-power="2" image="false" width="1366" height="667"></canvas>
     <canvas class="snow-canvas" speed="3" interaction="true" size="12" count="20" wind-power="-5" image="Billeder/snow.png" width="1366" height="667"></canvas>
+    <img src="Billeder/github.png" alt="github" style="width:2%; float: right; cursor: pointer" onclick="github()">
 
+    <div id= "musikDiv">
+            <p id="musikText">Lidt stemningsmusik måske? 🎅</p> 
+            <button id = "musikJa" onclick="playChristmasAudio()">Ja tak!</button> 
+            <button id = "musikNej" onclick="pauseChristmasAudio()">Ved nærmere eftertanke..</button>
+        </div>
 
     <h1>Velkommen til Techthomas.dk</h1>
     <h2>Her ønsker vi dig en glædelig jul, og naturligvis en hemmelig gave gemt på forsiden!</h2>
 
 <br><br><br><br>
+
     <div id="treeDiv">
     <img id="tree" src="Billeder/tree.png" alt="tree">
     <p id="klik" onclick="secretGift()">.</p>
@@ -39,7 +55,7 @@
     <img id="gift" src="Billeder/gave.png" alt="gift" onclick="foundGift()">
     <img id="mickey" src="Billeder/mickey.png" alt="mickey" onclick="mickeyBandit()">
     <p id="mickeyText">Hov.. Mickey tog gaven!</p>
-
+    <img id="reindeer" src="Billeder/reindeer.png" alt="reindeer">
     
     <script>
         $(".snow-canvas").snow();

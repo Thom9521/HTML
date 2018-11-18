@@ -4,7 +4,7 @@
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="forsidestyle.css">
     <script src="script.js"></script>
-    <!--Bruges kun til FadeIn af billede-->har
+    <!--Bruges kun til FadeIn af billede-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
     <audio id="ghostAudio">
         <source src="Billeder/haunting.mp3" type="audio/mpeg">
@@ -17,10 +17,17 @@
         </audio>
 </head>
 
-<body>
-    <p style="color:orangered; float: left;"><a href="../index.html">Forside</a></p>>
+<body>    
+        
+
     <img src="Billeder/githubOrange.png" alt="github" style="width:2%; float: right; cursor: pointer" onclick="github()">
-<br><br>
+<p style="color:orangered;"><a href="../index.html">Forside</a></p>
+    <div id= "musikDiv">
+                <p>Lidt stemningsmusik måske? 🎃</p> 
+                <button id = "musikJa" onclick="playHalloweenMusic()">Ja tak!</button> 
+                <button id = "musikNej" onclick="pauseHalloweenMusic()">Nej ikke alligevel..</button>
+    </div>
+<br>
    
     <h1>HAPPY HALLO<span style="cursor:pointer" id="W" onclick="secretGhost()">W</span>EEN</h1>
     <h3>Der er et spøgelse gemt på siden! <br> Se om du kan finde det! </h3>
@@ -30,11 +37,6 @@
 <img src="Billeder/pumpkin.gif" alt="pumpkins" style="float:right; transform: scaleX(-1)">
 <img src="Billeder/ghost3.png" alt="ghost" id="ghost" onclick="foundGhost()">
 <br><br>
- <div id= "musikDiv">
-        <p>Lidt stemningsmusik måske? 🎃</p> 
-        <button id = "musikJa" onclick="playHalloweenMusic()">Ja tak!</button> 
-        <button id = "musikNej" onclick="pauseHalloweenMusic()">Nej ikke alligevel..</button>
-    </div>
     
 </body>
 </html>
