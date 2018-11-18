@@ -1,57 +1,83 @@
 body{
-    background-color: rgba(0, 0, 0, 0.753);
-    font-family: Cambria;
-
+  background-color: rgb(179, 0, 12);
 }
-
 h1{
-    font-size: 300%;
+    color: white;
     text-align: center;
+    font-family: cursive;
 }
 h2{
+    color: white;
     text-align: center;
+    font-family: cursive;
 }
-  
-.container {
-    width: 100%;
-    transition: all 100ms;
-    
-  }
-  
-  .section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    transition: flex .4s ease;
-    position: relative;
-  }
-  
- .section .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
+h2.projekter{
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 120%;
+    padding: 5px;
+}
+a{
+    color: rgb(26, 131, 26);
+    font-family: cursive;
+}
+#tree{
+    width: 270px;
+}
+#treeDiv{
+position: absolute;
+top: 35%;
+left: 75%;
+}
+
+#klik{
+     text-align: center;
+     font-size: 130%;
+     color: white;
+     font-family: cursive;
+     position: absolute;
+     cursor: pointer;
+     color: lightblue;
+     position: absolute;
+     top: 63%;
+     left: 76.5%;
+}
+#gift{     
     position: absolute;
-    transition: background-color .8s ease;
-
-  }  
-  
-  .section .content {
-    z-index: 1;
-  }
-  
-  
-  .section:hover .overlay {
-    background-color: rgba(2, 0, 0, 0.95);
-  } 
-  
- .startBtns{ 
-    color: rgb(248, 40, 3);
-    text-decoration: none;
-    font-size: 50px;
+    top: 73%;
+    left: 64%;
+    width: 13%;
+    cursor: pointer;
+    display: none;
+}
+#mickey{
+    width: 13%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    display: none;
+    cursor: pointer;
+}
+#mickeyText{
+    position: absolute;
+    top: 87%;
+    left: 48%;
+    display: none;
+    font-size: 130%;
+    color: white;
+    font-family: cursive;
 }
 
+.snow-canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	pointer-events: none;
+}
