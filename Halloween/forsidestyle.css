@@ -24,6 +24,12 @@ a{
 div{
     color: orangered
 }
+#githubIcon{
+    font-size: 1.5em; 
+    color: orangered; 
+    float: right; 
+    cursor: pointer;
+}
 
 #ghost{
     float:right; 

@@ -1,51 +1,55 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Halloween</title>
     <link rel="stylesheet" type="text/css" href="forsidestyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <script src="script.js"></script>
     <!--Bruges kun til FadeIn af billede-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <audio id="ghostAudio">
         <source src="billeder/haunting.mp3" type="audio/mpeg">
     </audio>
     <audio id="SLLAudio">
         <source src="billeder/SSL.mp3" type="audio/mpeg">
-        </audio>
-        <audio id="HalloweenAudio">
-            <source src="billeder/Halloween.mp3" type="audio/mpeg"> 
-        </audio>
+    </audio>
+    <audio id="HalloweenAudio">
+        <source src="billeder/Halloween.mp3" type="audio/mpeg">
+    </audio>
 </head>
 
-<body>    
-        
-
-    <img src="billeder/githubOrange.png" alt="github" style="width:2%; float: right; cursor: pointer" onclick="github()">
-<p style="color:orangered;"><a href="../index.html">Forside</a></p>
-    <div id= "musikDiv">
-                <p>Lidt stemningsmusik måske? 🎃</p> 
-                <button id = "musikJa" onclick="playHalloweenMusic()">Ja tak!</button> 
-                <button id = "musikNej" onclick="pauseHalloweenMusic()">Nej ikke alligevel..</button>
+<body>
+    <span id="githubIcon" onclick="github()">
+        <i class="fab fa-github"></i>
+    </span>
+    <p style="color:orangered;"><a href="../index.html">Forside</a></p>
+    <div id="musikDiv">
+        <p>Lidt stemningsmusik måske? 🎃</p>
+        <button id="musikJa" onclick="playHalloweenMusic()">Ja tak!</button>
+        <button id="musikNej" onclick="pauseHalloweenMusic()">Nej ikke alligevel..</button>
     </div>
-<br>
-   
+    <br>
+
     <h1>HAPPY HALLO<span style="cursor:pointer" id="W" onclick="secretGhost()">W</span>EEN</h1>
     <h3>Der er et spøgelse gemt på siden! <br> Se om du kan finde det! </h3>
-   
-<br><br><br><br>
+
+    <br><br><br><br>
 
 
-<img src="billeder/pumpkin.gif" alt="pumpkins" style="float:right; transform: scaleX(-1)">
-<img src="billeder/ghost3.png" alt="ghost" id="ghost" onclick="foundGhost()">
-<br><br>
+    <img src="billeder/pumpkin.gif" alt="pumpkins" style="float:right; transform: scaleX(-1)">
+    <img src="billeder/ghost3.png" alt="ghost" id="ghost" onclick="foundGhost()">
+    <br><br>
 
-<h2 class ="projekter">Projekter:</h2>
+    <h2 class="projekter">Projekter:</h2>
     <nav>
         <ul>
             <li><a href="../mig/side1.html">Hvem er jeg?</a></li>
             <li><a href="../huskespil/huskespil.html">Huskespil</a></li>
         </ul>
     </nav>
-    
+
 </body>
+
 </html>

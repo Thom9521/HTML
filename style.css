@@ -25,6 +25,12 @@ a{
     color: rgb(26, 131, 26);
     font-family: cursive;
 }
+#githubIcon{
+    font-size: 1.5em; 
+    color: white; 
+    float: right; 
+    cursor: pointer;
+}
 #tree{
     width: 270px;
     -webkit-user-select: none; /* Safari */        
@@ -81,7 +87,7 @@ left: 75%;
 }
 
 #reindeer{
-    width: 15%;
+    width: 192px;
     transform: scaleX(-1);
     position: absolute;
     top: 50%;
