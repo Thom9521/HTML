@@ -46,14 +46,14 @@ left: 75%;
 
 #klik{
      text-align: center;
-     font-size: 130%;
+     font-size: 33%;
      color: white;
      font-family: cursive;
      position: absolute;
      cursor: pointer;
      color: lightblue;
      position: absolute;
-     top: 63%;
+     top: 71.5%;
      left: 76.5%;
      -webkit-user-select: none; /* Safari */        
      -moz-user-select: none; /* Firefox */
@@ -118,4 +118,21 @@ left: 75%;
 	left: 0;
 	position: fixed;
 	pointer-events: none;
+}
+
+.mobileBody{
+    display: none;
+    font-family: cursive;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .defaultBody {
+        display: none;
+    }
+    .mobileBody{
+        display: inline;
+    }
 }

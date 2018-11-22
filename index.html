@@ -21,13 +21,10 @@
     <audio id="christmasAudio">
         <source src="billeder/Christmas.mp3" type="audio/mpeg">
     </audio>
-
-
-
-
 </head>
 
 <body>
+    <div class="defaultBody">
     <canvas class="snow-canvas" speed="1" interaction="false" size="2" count="80" opacity="0.00001" start-color="rgba(253,252,251,1)"
         end-color="rgba(251,252,253,0.3)" wind-power="0" image="false" width="1366" height="667"></canvas>
     <canvas class="snow-canvas" speed="3" interaction="true" size="6" count="30" start-color="rgba(253,252,251,1)"
@@ -52,7 +49,7 @@
 
     <div id="treeDiv">
         <img id="tree" src="billeder/tree.png" alt="tree">
-        <p id="klik" onclick="secretGift()">.</p>
+        <p id="klik" onclick="secretGift()">O</p>
     </div>
 
     <h2 class="projekter">Projekter:</h2>
@@ -71,6 +68,12 @@
     <script>
         $(".snow-canvas").snow();
     </script>
+    </div>
+    <div class="mobileBody">
+        <p>Hey! Hvis du vil se indholdet må du ønske dig en større skærm i julegave!</p>
+        <p>HO HO HO</p>
+    </div>
 </body>
+
 
 </html>
