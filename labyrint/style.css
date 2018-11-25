@@ -29,3 +29,46 @@
     text-align: center;
     font-family: monospace;  
 }
+
+/*Level 2*/
+
+/*Level 3*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+#klik3{
+    text-align: center;
+     font-size: 33%;
+     font-family: cursive;
+     cursor: pointer;
+     color: black;
+     position: absolute;
+     top: 44.5%;
+     left: 55.9%;
+     -webkit-user-select: none; /* Safari */        
+     -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* IE10+/Edge */
+     user-select: none; /* Standard */
+}
+.h1Level3{
+        text-align: center;
+        font-family: monospace;  
+        position: absolute;
+        top: 0%;
+        left: 46.2%;
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+}
