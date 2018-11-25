@@ -23,6 +23,9 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+#start{
+    cursor: pointer;
+}
 
 /*Level 1*/
 .h1Level1{
