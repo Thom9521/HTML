@@ -142,3 +142,13 @@ p{
     background: #ff5e5e;
     width: 40%;
   }
+
+  #backIcon{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    font-size: 1.5em; 
+    color: black; 
+    cursor: pointer;
+    padding-right: 5px;
+}
