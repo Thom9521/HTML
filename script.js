@@ -1,7 +1,6 @@
 function secretGift() {
     if(document.getElementById("gift").display == "none"){
-        //var audio = document.getElementById("ghostAudio");
-        //audio.play();
+
     }
         $(document).ready(function(){
                 $("#gift").fadeIn(2000);
@@ -26,7 +25,18 @@ playSurpriseAudio();
 }
 
 function mickeyBandit(){
-    alert("Den bandit!");
+   // alert("Den bandit!");
+    $(document).ready(function(){
+        $("#mlg").fadeIn(2000);
+    });
+    $(document).ready(function(){
+        $("#mlg2").fadeIn(2000);
+    });
+    $(document).ready(function(){
+        $("#smoke").fadeIn(2000);
+    });
+    var audio = document.getElementById("mlgAudio");
+        audio.play();
 }
 function playGiftAudio(){
     var audioGift = document.getElementById("giftAudio");

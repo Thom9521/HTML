@@ -135,3 +135,28 @@ left: 75%;
         display: inline;
     }
 }
+
+#mlg{
+    width: 4%;
+    position: absolute;
+    top: 72.5%;
+    left: 53%;
+    display: none;
+  
+}
+#mlg2{
+    width: 4%;
+    position: absolute;
+    top: 63.3%;
+    left: 39%;
+    display: none;
+
+}
+#smoke{
+    width: 3%;
+    position: absolute;
+    top: 72%;
+    left: 42%;
+    display: none;
+
+}
