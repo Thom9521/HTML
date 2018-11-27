@@ -1,5 +1,9 @@
 body{
   background-color: rgb(179, 0, 12);
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 h1{
     color: white;
@@ -33,10 +37,7 @@ a{
 }
 #tree{
     width: 270px;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+   
 }
 #treeDiv{
 position: absolute;
@@ -54,10 +55,7 @@ left: 75%;
      position: absolute;
      top: 71.5%;
      left: 76.5%;
-     -webkit-user-select: none; /* Safari */        
-     -moz-user-select: none; /* Firefox */
-     -ms-user-select: none; /* IE10+/Edge */
-     user-select: none; /* Standard */
+    
 }
 #gift{     
     position: absolute;
@@ -67,34 +65,36 @@ left: 75%;
     cursor: pointer;
     display: none;
 }
-#mickey{
-    width: 13%;
+#mickeyDiv{
     position: absolute;
     top: 65%;
     left: 50%;
-    display: none;
+    display: inline;
     cursor: pointer;
+
+}
+#mickey{
+    width: 150px;
+    display: none;
 }
 #mickeyText{
     position: absolute;
-    top: 87%;
-    left: 48%;
+    top: 80%;
     display: none;
     font-size: 130%;
     color: white;
     font-family: cursive;
 }
-
-#reindeer{
-    width: 192px;
+#reindeerDiv{
     transform: scaleX(-1);
     position: absolute;
     top: 50%;
     left: 30%;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+}
+#reindeer{
+    width: 192px;
+
+  
 }
 #musikJa, #musikNej{
     background-color: rgb(26, 131, 26);
@@ -137,26 +137,38 @@ left: 75%;
 }
 
 #mlg{
-    width: 4%;
+    width: 43px;
     position: absolute;
-    top: 72.5%;
-    left: 53%;
+    top: 27.5%;
+    left: 24%;
     display: none;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
   
 }
 #mlg2{
-    width: 4%;
+    width: 50px;
     position: absolute;
-    top: 63.3%;
-    left: 39%;
+    top: 32%;
+    left: 14%;
     display: none;
+   
 
 }
 #smoke{
-    width: 3%;
+    width: 30px;
     position: absolute;
-    top: 72%;
-    left: 42%;
+    top: 54%;
+    left: 7%;
     display: none;
-
+    transform: scaleX(-1);
+}
+#undervisningsIconet{
+    font-size: 1.5em; 
+    color: white; 
+    float: right; 
+    cursor: pointer;
+    padding-right: 5px;
 }
