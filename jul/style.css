@@ -1,0 +1,174 @@
+body{
+  background-color: rgb(179, 0, 12);
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+h2.projekter{
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 120%;
+    padding: 5px;
+}
+a{
+    color: rgb(26, 131, 26);
+    font-family: cursive;
+}
+#githubIcon{
+    font-size: 1.5em; 
+    color: white; 
+    float: right; 
+    cursor: pointer;
+}
+#tree{
+    width: 270px;
+   
+}
+#treeDiv{
+position: absolute;
+top: 35%;
+left: 75%;
+}
+
+#klik{
+     text-align: center;
+     font-size: 33%;
+     font-family: cursive;
+     position: absolute;
+     cursor: pointer;
+     color: lightblue;
+     position: absolute;
+     top: 71.5%;
+     left: 76.5%;
+    
+}
+#gift{     
+    position: absolute;
+    top: 73%;
+    left: 64%;
+    width: 13%;
+    cursor: pointer;
+    display: none;
+}
+#mickeyDiv{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    display: inline;
+    cursor: pointer;
+
+}
+#mickey{
+    width: 150px;
+    display: none;
+}
+#mickeyText{
+    position: absolute;
+    top: 80%;
+    display: none;
+    font-size: 130%;
+    color: white;
+    font-family: cursive;
+}
+#reindeerDiv{
+    transform: scaleX(-1);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+#reindeer{
+    width: 192px;
+
+  
+}
+#musikJa, #musikNej{
+    background-color: rgb(26, 131, 26);
+    border-color: rgb(26, 131, 26);
+    font-family: cursive;
+    color: white;
+    }
+#musikText{
+    font-family: cursive;
+    color: white;
+
+}
+    
+
+.snow-canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	pointer-events: none;
+}
+
+.mobileBody{
+    display: none;
+    font-family: cursive;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .defaultBody {
+        display: none;
+    }
+    .mobileBody{
+        display: inline;
+    }
+}
+
+#mlg{
+    width: 43px;
+    position: absolute;
+    top: 27.5%;
+    left: 24%;
+    display: none;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  
+}
+#mlg2{
+    width: 50px;
+    position: absolute;
+    top: 32%;
+    left: 14%;
+    display: none;
+   
+
+}
+#smoke{
+    width: 30px;
+    position: absolute;
+    top: 54%;
+    left: 7%;
+    display: none;
+    transform: scaleX(-1);
+}
+#undervisningsIconet{
+    font-size: 1.5em; 
+    color: white; 
+    float: right; 
+    cursor: pointer;
+    padding-right: 5px;
+}
