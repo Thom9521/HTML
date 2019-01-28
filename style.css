@@ -1,9 +1,12 @@
   body{
     /*background-color: rgba(0, 0, 0, 0.753); */
-    background-image: url("/billeder/forrest.jpg");
-    background-size: 100em;
-    background-repeat: no-repeat;
     font-family: monospace;
+    background: url("/billeder/forrest.jpg") no-repeat center center;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 h1{
     font-size: 300%;

@@ -1,13 +1,17 @@
-function programmering(){
-    var win = window.open("https://docs.google.com/document/d/1ukBo0v6Fg-fvH6CUl5UgeBjoEGDgKHqUnjYP0VUyZkw/edit", "_blank");
+function programmeringNaestved(){
+    var win = window.open("", "_blank");
     win.focus;
  }
+function programmeringRoskilde(){
+   var win = window.open("http://heho-easj.dk/HTML5&JSF2019/Webprogramming.html", "_blank");
+   win.focus
+}
  function systemudvikling(){
-    var win = window.open("https://docs.google.com/document/d/19PqnX2SsaVSbK2-THF3F6j_3T9eBYIF9W-PHCiHjYSI/edit", "_blank");
+    var win = window.open("", "_blank");
     win.focus;
  }
  function teknik(){
-    var win = window.open("https://fronter.com/easj/links/files.phtml/1122601210$274567995$/Resources/Course+materials/3.+semester/Teknologi/Teknologi+3.+semester+2H2018.pdf", "_blank");
+    var win = window.open("", "_blank");
     win.focus;
  }
  function skema(){
