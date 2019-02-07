@@ -2,7 +2,7 @@ function hentMad(){
     var randomNumber = Math.floor(Math.random()*21+1);
 
     if(randomNumber === 1){
-        document.getElementById("resultat").innerHTML = "Hjemmelavet Pizza"
+        document.getElementById("resultat").innerHTML = "Hjemmelavet Pizza 🍕"
     }
     else if(randomNumber === 2){
         document.getElementById("resultat").innerHTML = "Tomatsuppe 🥣"
