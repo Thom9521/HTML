@@ -1,0 +1,85 @@
+body{
+background: rgb(61,195,245);
+background: -moz-linear-gradient(90deg, rgba(61,195,245,1) 0%, rgba(45,253,229,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(61,195,245,1) 0%, rgba(45,253,229,1) 100%);
+background: linear-gradient(90deg, rgba(61,195,245,1) 0%, rgba(45,253,229,1) 100%);
+font-family: monospace;
+margin: 0%;
+padding: 0%;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ul{
+  list-style-type: none;
+  text-align: left;
+  padding: 2%;
+}
+li{
+  font-size: 140%;
+  padding: 5px;
+}
+a{
+  color: black;
+
+  text-decoration: none;
+}
+#githubIcon{
+  font-size: 1.5em; 
+  color: black; 
+  float: right; 
+  cursor: pointer;
+}
+#undervisningsIconet{
+  font-size: 1.5em; 
+  color: black; 
+  float: right; 
+  cursor: pointer;
+  padding-right: 5px;
+}
+.mobileBody{
+  display: none;
+  font-family: cursive;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  background-image: none;
+}
+#h1P{
+  font-size: 220%;
+  text-align: center;
+}
+#h2P{
+  font-size: 150%;
+  text-align: center;
+}
+#pDiv{
+    padding-left: 2%;
+    font-size: 130%;
+    text-align: left;
+}
+
+#vidsteDuDiv{
+    text-align: right;
+    float: right;
+    padding: 2%;
+    width: 40%;
+    font-size: 110%;
+}
+#happyEasterImg{
+    float: right;
+    width: 20rem;
+    height: auto;
+    padding-right: 5%;
+}
+#grassImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.eggImg{
+    width: 5rem;
+}
