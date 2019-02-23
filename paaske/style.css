@@ -77,8 +77,8 @@ a{
     padding-right: 5%;
 }
 #grassImg{
-    max-width: 100%;
-    max-height: 100%;
+width: 100%;
+height: auto;
 }
 .eggImg{
     width: 5rem;

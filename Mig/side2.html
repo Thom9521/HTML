@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" href="coolstyle.css">
     <link rel="shortcut icon" type="image/jpg" href="/mig/billeder/toucanb.png" />
     <script src="/paaske/script.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery/1.8.1/jquery.min.js"></script>
+
 </head>
 <style>
 img{opacity: 1;}
@@ -42,7 +45,7 @@ img{opacity: 1;}
         <p>Min anden hund hedder Mille. Hende er jeg vokset op med, og hun bor hos mine forældre. Hun er 13 år gammel og en west highland white terrier.</p>
         <img src="billeder/Mille.JPG" alt="Mille" style="width:400; height:300; position: absolute;
         z-index:1; float: left;">
-        <img src="/paaske/billeder/egg0.png" style="width:1rem; height: auto; position: absolute;
-        z-index:2; float: left; cursor: pointer" onclick="eggCookieGreen()">
+        <img id="greenEgg" src="/paaske/billeder/egg0.png" style="width:1rem; height: auto; position: absolute;
+        z-index:2; float: left; cursor: pointer;" onclick="eggCookieGreen()">
 </body>
 </html>

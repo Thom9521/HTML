@@ -9,6 +9,8 @@
         crossorigin="anonymous">
     <script src="script.js"></script>
     <script src="/paaske/script.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery/1.8.1/jquery.min.js"></script>
     <!--Bruges kun til FadeIn af billede-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <audio id="ghostAudio">
@@ -44,7 +46,7 @@
     <img src="billeder/ghost3.png" alt="ghost" id="ghost" onclick="foundGhost()">
     <br><br>
 
-    <h2 class="projekter">Pr <span><img src="/paaske/billeder/egg2.png"style="width:1rem; height: auto; cursor: pointer;" onclick="eggCookieBlue()"></span>jekter:</h2>
+    <h2 class="projekter">Pr <span><img id="blueEgg" src="/paaske/billeder/egg2.png"style="width:1rem; height: auto; cursor: pointer;" onclick="eggCookieBlue()"></span>jekter:</h2>
     <nav>
         <ul>
             <li><a href="../mig/side1.html">Hvem er jeg?</a></li>

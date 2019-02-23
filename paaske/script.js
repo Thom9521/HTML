@@ -56,7 +56,11 @@ function eggCookieGreen() {
     }
     var getCookie = findCookieContent("greenEggFound");
     //Hvis cookie med navnet "eggsFound" ikke findes så sættes en cookie med indholdet 1
-    if (!getCookie) { document.cookie = "greenEggFound=" + 1 + ";"+"path=/"; }
+    if (!getCookie) { document.cookie = "greenEggFound=" + 1 + ";"+"path=/"; 
+    $(document).ready(function(){
+        $("#greenEgg").fadeOut(1500);
+    });
+}
 }
 
 function eggCookieYellow() {
@@ -66,7 +70,10 @@ function eggCookieYellow() {
     }
     var getCookie = findCookieContent("yellowEggFound");
     //Hvis cookie med navnet "eggsFound" ikke findes så sættes en cookie med indholdet 1
-    if (!getCookie) { document.cookie = "yellowEggFound=" + 1 + ";"+"path=/"; }
+    if (!getCookie) { document.cookie = "yellowEggFound=" + 1 + ";"+"path=/"; 
+    $(document).ready(function(){
+        $("#yellowEgg").fadeOut(1500);
+    });}
 }
 function eggCookieBlue() {
     function findCookieContent(name) {
@@ -75,7 +82,10 @@ function eggCookieBlue() {
     }
     var getCookie = findCookieContent("blueEggFound");
     //Hvis cookie med navnet "eggsFound" ikke findes så sættes en cookie med indholdet 1
-    if (!getCookie) { document.cookie = "blueEggFound=" + 1 + ";"+"path=/"; }
+    if (!getCookie) { document.cookie = "blueEggFound=" + 1 + ";"+"path=/"; 
+    $(document).ready(function(){
+        $("#blueEgg").fadeOut(1500);
+    });}
 }
 function eggCookiePurple() {
     function findCookieContent(name) {
@@ -84,7 +94,10 @@ function eggCookiePurple() {
     }
     var getCookie = findCookieContent("purpleEggFound");
     //Hvis cookie med navnet "eggsFound" ikke findes så sættes en cookie med indholdet 1
-    if (!getCookie) { document.cookie = "purpleEggFound=" + 1 + ";"+"path=/"; }
+    if (!getCookie) { document.cookie = "purpleEggFound=" + 1 + ";"+"path=/"; 
+    $(document).ready(function(){
+        $("#purpleEgg").fadeOut(1500);
+    });}
 }
 function eggCookieRed() {
     function findCookieContent(name) {
@@ -93,7 +106,10 @@ function eggCookieRed() {
     }
     var getCookie = findCookieContent("redEggFound");
     //Hvis cookie med navnet "eggsFound" ikke findes så sættes en cookie med indholdet 1
-    if (!getCookie) { document.cookie = "redEggFound=" + 1 + ";"+"path=/"; }
+    if (!getCookie) { document.cookie = "redEggFound=" + 1 + ";"+"path=/"; 
+    $(document).ready(function(){
+        $("#redEgg").fadeOut(1500);
+    });}
 }
 
 function github(){
