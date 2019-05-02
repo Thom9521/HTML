@@ -1,7 +1,7 @@
   body{
     /*background-color: rgba(0, 0, 0, 0.753); */
     font-family: monospace;
-    background: url("/billeder/forrest.jpg") no-repeat center center;
+    background: url("billeder/forrest.jpg") no-repeat center center;
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,6 +26,11 @@ li{
 }
 a{
   color: black;
+  text-shadow:
+  -1px -1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+  -1px 1px 0 #ffffff,
+  1px 1px 0 #ffffff;  
   font-family: monospace;
   text-decoration: none;
 }
