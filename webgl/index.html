@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebGL Test</title>
+</head>
+<body>
+    <h1>Hej og velkommen til en WebGL Test</h1>
+    <canvas id="glCanvas" width="640" height="480"></canvas>
+    <p>En sort box vil blive vist i mellem det første h1 element og dette p element</p>
+</body>
+<script>
+    main();
+    function main() {
+        const canvas = document.getElementById("glCanvas");
+        const gl = canvas.getContext("webgl");
+        if (gl === null) {
+            alert("Fejl. Måske browseren ikke understøtter WebGL");
+            return;
+        }
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.clear(gl.COLOR_BUFFER_BIT);
+    }
+</script>
+</html>

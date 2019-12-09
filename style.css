@@ -1,8 +1,8 @@
   body{
-    /*background-color: rgba(0, 0, 0, 0.753); */
     font-family: monospace;
     background: url("billeder/forrest.jpg") no-repeat center center;
-    min-height: 100%;
+    background-repeat: repeat;
+    background-size: 100%;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,22 +17,19 @@ h2{
 }
 ul{
   list-style-type: none;
-  text-align: right;
   padding: 2%;
 }
 li{
   font-size: 140%;
   padding: 5px;
 }
-a{
-  color: black;
-  text-shadow:
-  -1px -1px 0 #ffffff,
-  1px -1px 0 #ffffff,
-  -1px 1px 0 #ffffff,
-  1px 1px 0 #ffffff;  
+.aList{
+  color: white;
   font-family: monospace;
   text-decoration: none;
+}
+.aList:hover{
+  color: orangered;
 }
 #githubIcon{
   font-size: 1.5em; 
@@ -47,6 +44,13 @@ a{
   cursor: pointer;
   padding-right: 5px;
 }
+#linkedInIcon{
+  font-size: 1.5em; 
+  color: black;
+  float: right; 
+  cursor: pointer;
+  padding-right: 5px;
+}
 .mobileBody{
   display: none;
   font-family: cursive;
@@ -56,13 +60,36 @@ a{
   background-image: none;
 }
 #h1P{
-  font-size: 200%;
-  text-align: center;
+  font-size: 400%;
+  margin: 2%;
 }
 #h2P{
   font-size: 150%;
-  text-align: center;
+  margin: 2%;
 }
+
+
+  /*SCROLLBAR**************************/
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /**SCROLLBAR SLUT*******************/
+  
  /*
 @media screen and (max-width: 800px) {
   .defaultBody {
