@@ -1,2 +1,2 @@
-# Website
-Repository for my website: Techthomas.dk
+# TechThomas.dk
+Repository for my website: [techthomas.dk](TechThomas.dk)
